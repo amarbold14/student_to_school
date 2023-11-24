@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100vh;
+  width: 100%;
+  touch-action: manipulation;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -ms-user-select: none;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.overflow-x-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.overflow-y-scroll::-webkit-scrollbar {
+  display: none;
+}
+div {
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+p {
+  margin: 0;
+  line-height: 1.25;
+  font-size: 16px;
+  white-space: pre-line;
+}
+
+a {
+  text-decoration: none;
+}
+.i2eYj {
+  background-image: url(https://maps.gstatic.com/tactile/layers/traffic-legend-20150511.png);
+  width: 78px;
+  height: 7px;
+  background-size: 78px 7px;
+  display: inline-block;
+  margin-left: 4px;
+  margin-right: 2px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
